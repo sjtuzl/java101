@@ -10,5 +10,6 @@ public class CH_2_17 {
         v = input.nextDouble();
         windChill = 35.74 + 0.6215 * actualTemp - 35.75 * Math.pow (v , 0.16) + 0.4275 * actualTemp * Math.pow (v , 0.16);
         System.out.println("The wind chill index is " + windChill);
+
     }
 }
