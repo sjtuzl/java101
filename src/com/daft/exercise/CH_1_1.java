@@ -1,5 +1,5 @@
 // this is a best practice
-package com.charlie.exercise;
+package com.daft.exercise;
 
 public class CH_1_1 {
 
