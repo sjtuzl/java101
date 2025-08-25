@@ -11,15 +11,16 @@ public class CH_3_11 {
             case 1: System.out.println("January " + year + " has 31 days"); break;
             case 2: if (year%4==0) {
                 if(year%100!=0 || year%1000==0) {
-                    System.out.println("February " + year + " has 29 days"); break;
+                    System.out.println("February " + year + " has 29 days");
                 }
                 else {
-                    System.out.println("February " + year + " has 28 days"); break;
+                    System.out.println("February " + year + " has 28 days");
                 }
             }
             else {
-                System.out.println("February " + year + " has 28 days"); break;
+                System.out.println("February " + year + " has 28 days");
             }
+                break;
             case 3: System.out.println("March " + year + " has 31 days"); break;
             case 4: System.out.println("April " + year + " has 30 days"); break;
             case 5: System.out.println("May " + year + " has 31 days"); break;
